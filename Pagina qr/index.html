@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css and js/styles.css">
+    <link rel="stylesheet" href="css and js/Botones.css">
+    <title>Generador de QR</title>
+</head>
+<body>
+    <div class="container">
+    <div id="RelojGamepro"></div>
+        <h1>Generador de QR</h1>
+        <label for="urlInput">Introduce la URL:</label>
+        <input type="text" id="urlInput" placeholder="https://ejemplo.com">
+        <button  onclick="generarQR()" class="custom-btn btn-3"><span>Generar QR</span></button>
+        <div id="qrCode"></div>
+    </div>
+    <script src="css and js/qrcode.min.js"></script>
+    <script src="css and js/script.js"></script>
+    <script src="css and js/TiempoAMPM.js"></script>
+    <script src="css and js/Botones.js"></script>
+
+</body>
+</html>
